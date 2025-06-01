@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "779784415445",
+    "project_id": "job-market-cdcbd",
+    "storage_bucket": "job-market-cdcbd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779784415445:android:35cfdd227936874f71da5c",
+        "android_client_info": {
+          "package_name": "com.example.job_market"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAaG6RLaJRDnO1oYIKVf5VWZZv1dAIo14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779784415445:android:28817ab91277e74d71da5c",
+        "android_client_info": {
+          "package_name": "com.masumttc.jobmarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAaG6RLaJRDnO1oYIKVf5VWZZv1dAIo14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
