@@ -1,16 +1,17 @@
-android {
-    compileSdkVersion 33
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
+android {
+    compileSdkVersion 34
 
     defaultConfig {
-        applicationId "com.masumttc.jobmarket" // ✅ আপনার নতুন প্যাকেজ নাম
+        applicationId "com.masumttc.jobmarket"
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
     }
-
 
     buildTypes {
         release {
@@ -21,13 +22,11 @@ android {
     }
 }
 
-
 dependencies {
     implementation platform('com.google.firebase:firebase-bom:32.7.0')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-firestore'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
 }
-
-
-apply plugin: 'com.google.gms.google-services'
